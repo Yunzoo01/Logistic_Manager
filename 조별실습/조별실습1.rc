@@ -1,0 +1,174 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource1.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 551, 222
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "물류관리프로그램"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "물류전체정보",IDC_STATIC,7,7,338,199
+    LTEXT           "물류수 : 0건",IDC_STATIC1,19,22,54,8
+    CONTROL         "",IDC_LIST3,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,18,34,326,172
+    PUSHBUTTON      "저장...",IDC_BUTTON1,374,21,146,14
+    GROUPBOX        "검색결과",IDC_STATIC,357,73,176,132
+    LTEXT           "물류번호",IDC_STATIC,373,100,33,8
+    LTEXT           "품목",IDC_STATIC,373,119,33,8
+    LTEXT           "거래날짜",IDC_STATIC,373,141,33,8
+    LTEXT           "유형",IDC_STATIC,373,162,33,8
+    EDITTEXT        IDC_EDIT1,422,97,96,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,422,117,96,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,422,140,95,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,422,159,95,73,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "검색...",IDC_BUTTON2,375,46,72,14
+    PUSHBUTTON      "수정",IDC_BUTTON3,451,181,65,14
+    PUSHBUTTON      "삭제",IDC_BUTTON4,454,46,66,14
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 249, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,94,131,50,14
+    PUSHBUTTON      "취소",IDCANCEL,158,131,50,14
+    GROUPBOX        "물류정보저장",IDC_STATIC,7,7,220,116
+    LTEXT           "물류번호",IDC_STATIC,37,32,33,8
+    LTEXT           "품목",IDC_STATIC,36,55,33,8
+    LTEXT           "거래날짜",IDC_STATIC,36,77,33,8
+    LTEXT           "유형",IDC_STATIC,36,99,33,8
+    EDITTEXT        IDC_EDIT1,94,31,114,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,95,51,114,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,94,74,114,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,93,99,116,73,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 256, 58
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "물류검색"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "물류번호",IDC_STATIC,18,30,42,8
+    EDITTEXT        IDC_EDIT1,73,27,100,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "검색",IDOK,186,26,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 543
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 242
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 152
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 51
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG2 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG3 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
